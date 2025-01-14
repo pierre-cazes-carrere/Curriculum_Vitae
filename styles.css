@@ -60,7 +60,10 @@ main {
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+i {
+    margin-right: 10px;
+    color: #007bff;
+}
 #contact-profil-container {
     display: flex;
     gap: 20px;
@@ -73,7 +76,7 @@ main {
     padding: 15px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(149, 149, 149, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #contact-profil-container > section:hover {
@@ -88,7 +91,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(149, 149, 149, 0.5);
     box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 section:hover {
@@ -141,7 +144,7 @@ footer p {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 1px 4px 6px rgba(149, 149, 149, 0.8);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .experience-item:hover,
@@ -164,7 +167,7 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(149, 149, 149, 0.5);
     background-color: white;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 #skills-container > section:hover {
